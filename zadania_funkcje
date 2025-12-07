@@ -1,0 +1,19 @@
+1. Napisz funkcję roznica, która zwraca różnicę dwóch liczb całkowitych.
+
+2. Napisz funkcję iloczyn, która zwraca iloczyn dwóch liczb całkowitych.
+
+3. Napisz funkcję srednia, która zwraca średnią dwóch liczb zmiennoprzecinkowych.
+
+4. Napisz funkcję czy_parzysta, która zwraca true, jeśli liczba jest parzysta, a false w przeciwnym wypadku.
+
+5. Napisz wartosc_bezwzgledna, która zwraca wartość bezwzględną liczby całkowitej.
+
+6. Napisz funkcję pole_prostokata, która zwraca pole prostokąta.
+
+7. Napisz funkcję double pole_kola, która zwraca pole koła.
+
+8. Napisz funkcję double obwod_kwadratu, która zwraca obwód kwadratu.
+
+9. Napisz funkcję minimum, która zwraca mniejszą z dwóch liczb.
+
+10. Napisz funkcję maximum, która zwraca wiekszosc z dwóch liczb.
