@@ -1,0 +1,94 @@
+Napisz program w języku C++, który umożliwia analizę wprowadzonego przez użytkownika wyrazu lub zdania (bez spacji).
+
+Program powinien realizować następujące funkcjonalności:
+
+Część 1 – Wczytanie danych
+
+1. Program wyświetla komunikat:
+
+Podaj wyraz:
+
+
+2. Użytkownik wpisuje jeden wyraz (bez spacji).
+
+3. Wyraz należy zapisać w tablicy znaków char.
+
+
+
+Część 2 – Informacje o napisie
+
+Po wczytaniu danych program powinien:
+
+1. Wyświetlić długość podanego wyrazu.
+
+2. Wyświetlić wyraz zapisany od tyłu.
+
+
+
+Część 3 – Sprawdzenie palindromu
+
+1. Program sprawdza, czy podany wyraz jest palindromem.
+
+2. Jeśli tak – wyświetla komunikat:
+
+Wyraz jest palindromem.
+
+3. Jeśli nie – wyświetla:
+
+Wyraz nie jest palindromem.
+
+
+Część 4 – Analiza znaków
+
+Program powinien policzyć i wyświetlić:
+
+1. Liczbę liter w wyrazie
+
+2. Liczbę cyfr (jeśli występują)
+
+3. Liczbę innych znaków
+
+Przykład:
+
+Liczba liter: 5
+Liczba cyfr: 2
+Liczba innych znakow: 0
+
+Część 5 – Modyfikacja napisu
+
+1. Program zamienia wszystkie małe litery na duże.
+
+2. Wyświetla zmodyfikowany napis.
+
+
+Wymagania techniczne
+
+użyj tablic typu char[]
+
+użyj funkcji:
+
+strlen()
+
+strcmp()
+
+toupper() / tolower()
+
+isalpha()
+
+isdigit()
+
+nie używaj typu string
+
+program musi działać poprawnie dla wyrazów o długości do 50 znaków
+
+Przykładowe działanie programu
+Podaj wyraz:
+Kajak1
+
+Dlugosc wyrazu: 6
+Wyraz od tylu: 1kajaK
+Wyraz jest palindromem.
+Liczba liter: 5
+Liczba cyfr: 1
+Liczba innych znakow: 0
+Napis po zamianie na duze litery: KAJAK1
