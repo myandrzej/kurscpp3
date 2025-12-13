@@ -1,0 +1,76 @@
+SYSTEM OBSŁUGI DANYCH STUDENTA
+
+Dozwolone biblioteki: <iostream>
+(opcjonalnie <cctype>, <cstring> jeśli student chce)
+
+
+Napisz program w języku C++, który symuluje prosty system obsługi danych studenta.
+
+CZĘŚĆ 1 – MENU (switch)
+
+Po uruchomieniu programu wyświetl menu:
+
+1. Wprowadz oceny
+2. Wyswietl oceny
+3. Oblicz srednia
+4. Najwyzsza i najnizsza ocena
+5. Zakoncz program
+
+
+Użytkownik wybiera opcję (1–5).
+
+Menu ma się powtarzać, aż użytkownik wybierze opcję 5.
+
+CZĘŚĆ 2 – TABLICA (wprowadzanie danych)
+
+Program przechowuje maksymalnie 10 ocen w tablicy int.
+
+Oceny są z zakresu 2–5.
+
+Ilość ocen podaje użytkownik (1–10).
+
+CZĘŚĆ 3 – OPCJE MENU
+Opcja 1 – Wprowadź oceny
+
+Pobierz liczbę ocen
+
+Wczytaj oceny do tablicy
+
+Sprawdź poprawność danych (if)
+
+Opcja 2 – Wyświetl oceny
+
+Wyświetl wszystkie zapisane oceny
+
+Jeśli brak ocen - ma być komunikat
+
+Opcja 3 – Oblicz średnią
+
+Oblicz i wyświetl średnią ocen
+
+Jeśli brak ocen wyswietl komunikat
+
+Opcja 4 – Min i max
+
+Znajdź:
+
+najwyższą ocenę
+
+najniższą ocenę
+
+Jeśli brak ocen wypisz komunikat
+
+Opcja 5 – Zakończ
+
+Wyświetl:
+
+Koniec programu.
+
+WYMAGANIA OBOWIĄZKOWE
+
+cin, cout
+pętla while (menu)
+pętla for (tablica)
+if / else (walidacja danych)
+switch (menu)
+tablica int oceny[10]
